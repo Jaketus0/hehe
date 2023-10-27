@@ -1,0 +1,1 @@
+buatlah & "C:/Users/Lenovo YOGA/AppData/Local/Programs/Python/Python311/python.exe" "D:\Python\membaca dan menulis file strin\fileempat.py"

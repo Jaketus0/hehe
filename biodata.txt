@@ -1,0 +1,8 @@
+Nama: via
+Umur: 17
+Alamat: syantikara
+
+Nama: amel
+Umur: 19
+Alamat: syantikara 
+
