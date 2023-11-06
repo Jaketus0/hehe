@@ -572,12 +572,66 @@
 # print("Luas: "+str(l.hitungLuas()))
 # print("Keliling: "+str(l.hitungKeliling()))
 
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
+# p1 = Person("John", 36)
+# print(p1.name)
+# print(p1.age)
 
-p1 = Person("John", 36)
+# value =[[20,10],('bambang','tono'),100,'asli']
+# print(value['tono'])
 
-print(p1.name)
-print(p1.age)
+# class RollerCoaster:
+#     def __init__(self):
+#         self.regular_queue = []
+#         self.vip_queue = []
+#         self.kapasitas = 4
+#         self.kapasitasVip = 2
+#         self.kapasitasR = 2
+
+#     def add_member(self, tipe_member, nama):
+#         if tipe_member == "R":
+#             self.regular_queue.append(nama)
+#         elif tipe_member == "V":
+#             self.vip_queue.append(nama)
+#         else:
+#             print("Jenis Member tidak valid!")
+
+#     def run_roller_coaster(self):
+#         pilih = []
+#         while len(self.vip_queue) > 0 and self.kapasitasVip > 0:  # Perbaikan di sini
+#             pilih.append(self.vip_queue.pop(0) + ' (V)')  # Perbaikan di sini
+#             self.kapasitasVip -= 1
+
+#         while len(self.regular_queue) > 0 and self.kapasitasR > 0:  # Perbaikan di sini
+#             pilih.append(self.regular_queue.pop(0) + " (R)")  # Perbaikan di sini
+#             self.kapasitasR -= 1    
+
+#         print('Pemain yang masuk: ', ', '.join(pilih))
+#         self.kapasitas = 4
+#         self.kapasitasVip = 2
+#         self.kapasitasR = 2
+
+# rc = RollerCoaster()
+
+# while True:
+#     print("Pilih Menu:")
+#     print("1. Tambah Antrian")
+#     print("2. Lakukan Permainan")
+#     print("3. Keluar")
+#     pilihan = input("Pilihan Anda: ")
+
+#     if pilihan == "1":
+#         nama = input("Nama Pemain: ")
+#         tipe_member = input("Jenis Member (R / V): ").upper()
+#         rc.add_member(tipe_member, nama)
+#         print(nama, "masuk antrian!")
+#     elif pilihan == "2":
+#         rc.run_roller_coaster()
+#         end = ' '
+#     elif pilihan == "3":
+#         break
+#     else:
+#         print("Pilihan tidak valid. Silakan coba lagi.")
